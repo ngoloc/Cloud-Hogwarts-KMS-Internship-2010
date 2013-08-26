@@ -1,0 +1,675 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5E4DC693-A4D9-47EA-A187-4F9877ABD603}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CloudHogwarts_WebRole</RootNamespace>
+    <AssemblyName>CloudHogwarts_WebRole</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FreeTextBox, Version=3.3.1.12354, Culture=neutral, PublicKeyToken=5962a4e684a48b87, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.WindowsAzure.Diagnostics" />
+    <Reference Include="Microsoft.WindowsAzure.ServiceRuntime" />
+    <Reference Include="Microsoft.WindowsAzure.StorageClient" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.Services.Client">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ServiceModel">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\1-20051113151810.gif" />
+    <Content Include="Images\accept.png" />
+    <Content Include="Images\accepted_48.png" />
+    <Content Include="Images\add.png" />
+    <Content Include="Images\add_16.png" />
+    <Content Include="Images\add_48.png" />
+    <Content Include="Images\anchor.png" />
+    <Content Include="Images\application.png" />
+    <Content Include="Images\application_add.png" />
+    <Content Include="Images\application_cascade.png" />
+    <Content Include="Images\application_delete.png" />
+    <Content Include="Images\application_double.png" />
+    <Content Include="Images\application_edit.png" />
+    <Content Include="Images\application_error.png" />
+    <Content Include="Images\application_form.png" />
+    <Content Include="Images\application_form_add.png" />
+    <Content Include="Images\application_form_delete.png" />
+    <Content Include="Images\application_form_edit.png" />
+    <Content Include="Images\application_form_magnify.png" />
+    <Content Include="Images\application_get.png" />
+    <Content Include="Images\application_go.png" />
+    <Content Include="Images\application_home.png" />
+    <Content Include="Images\application_key.png" />
+    <Content Include="Images\application_lightning.png" />
+    <Content Include="Images\application_link.png" />
+    <Content Include="Images\application_osx.png" />
+    <Content Include="Images\application_osx_terminal.png" />
+    <Content Include="Images\application_put.png" />
+    <Content Include="Images\application_side_boxes.png" />
+    <Content Include="Images\application_side_contract.png" />
+    <Content Include="Images\application_side_expand.png" />
+    <Content Include="Images\application_side_list.png" />
+    <Content Include="Images\application_side_tree.png" />
+    <Content Include="Images\application_split.png" />
+    <Content Include="Images\application_tile_horizontal.png" />
+    <Content Include="Images\application_tile_vertical.png" />
+    <Content Include="Images\application_view_columns.png" />
+    <Content Include="Images\application_view_detail.png" />
+    <Content Include="Images\application_view_gallery.png" />
+    <Content Include="Images\application_view_icons.png" />
+    <Content Include="Images\application_view_list.png" />
+    <Content Include="Images\application_view_tile.png" />
+    <Content Include="Images\application_xp.png" />
+    <Content Include="Images\application_xp_terminal.png" />
+    <Content Include="Images\app_48.png" />
+    <Content Include="Images\arrow_branch.png" />
+    <Content Include="Images\arrow_divide.png" />
+    <Content Include="Images\arrow_down.png" />
+    <Content Include="Images\arrow_down_48.png" />
+    <Content Include="Images\arrow_down_green_48.png" />
+    <Content Include="Images\arrow_in.png" />
+    <Content Include="Images\arrow_inout.png" />
+    <Content Include="Images\arrow_join.png" />
+    <Content Include="Images\arrow_left.png" />
+    <Content Include="Images\arrow_left_48.png" />
+    <Content Include="Images\arrow_left_green_48.png" />
+    <Content Include="Images\arrow_merge.png" />
+    <Content Include="Images\arrow_out.png" />
+    <Content Include="Images\arrow_redo.png" />
+    <Content Include="Images\arrow_refresh.png" />
+    <Content Include="Images\arrow_refresh_small.png" />
+    <Content Include="Images\arrow_right.png" />
+    <Content Include="Images\arrow_right_48.png" />
+    <Content Include="Images\arrow_right_green_48.png" />
+    <Content Include="Images\arrow_rotate_anticlockwise.png" />
+    <Content Include="Images\arrow_rotate_clockwise.png" />
+    <Content Include="Images\arrow_switch.png" />
+    <Content Include="Images\arrow_turn_left.png" />
+    <Content Include="Images\arrow_turn_right.png" />
+    <Content Include="Images\arrow_undo.png" />
+    <Content Include="Images\arrow_up.png" />
+    <Content Include="Images\arrow_up_48.png" />
+    <Content Include="Images\arrow_up_green_48.png" />
+    <Content Include="Images\asterisk_orange.png" />
+    <Content Include="Images\asterisk_yellow.png" />
+    <Content Include="Images\attach.png" />
+    <Content Include="Images\award_star_add.png" />
+    <Content Include="Images\award_star_bronze_1.png" />
+    <Content Include="Images\award_star_bronze_2.png" />
+    <Content Include="Images\award_star_bronze_3.png" />
+    <Content Include="Images\award_star_delete.png" />
+    <Content Include="Images\award_star_gold_1.png" />
+    <Content Include="Images\award_star_gold_2.png" />
+    <Content Include="Images\award_star_gold_3.png" />
+    <Content Include="Images\award_star_silver_1.png" />
+    <Content Include="Images\award_star_silver_2.png" />
+    <Content Include="Images\award_star_silver_3.png" />
+    <Content Include="Images\Backward.png" />
+    <Content Include="Images\bar-circle.gif" />
+    <Content Include="Images\basket.png" />
+    <Content Include="Images\basket_add.png" />
+    <Content Include="Images\basket_delete.png" />
+    <Content Include="Images\basket_edit.png" />
+    <Content Include="Images\basket_error.png" />
+    <Content Include="Images\basket_go.png" />
+    <Content Include="Images\basket_put.png" />
+    <Content Include="Images\basket_remove.png" />
+    <Content Include="Images\beer_48.png" />
+    <Content Include="Images\bell.png" />
+    <Content Include="Images\bell_add.png" />
+    <Content Include="Images\bell_delete.png" />
+    <Content Include="Images\bell_error.png" />
+    <Content Include="Images\bell_go.png" />
+    <Content Include="Images\bell_link.png" />
+    <Content Include="Images\Bieu_Tuong_Hogwarts.jpg" />
+    <Content Include="Images\bin.png" />
+    <Content Include="Images\bin_closed.png" />
+    <Content Include="Images\bin_empty.png" />
+    <Content Include="Images\blinklist_48.png" />
+    <Content Include="Images\blue-button.jpg" />
+    <Content Include="Images\blue_speech_bubble_48.png" />
+    <Content Include="Images\bomb.png" />
+    <Content Include="Images\book.png" />
+    <Content Include="Images\book_48.png" />
+    <Content Include="Images\book_add.png" />
+    <Content Include="Images\book_addresses.png" />
+    <Content Include="Images\book_delete.png" />
+    <Content Include="Images\book_edit.png" />
+    <Content Include="Images\book_error.png" />
+    <Content Include="Images\book_go.png" />
+    <Content Include="Images\book_key.png" />
+    <Content Include="Images\book_link.png" />
+    <Content Include="Images\book_next.png" />
+    <Content Include="Images\book_open.png" />
+    <Content Include="Images\book_previous.png" />
+    <Content Include="Images\Box.png" />
+    <Content Include="Images\box_48.png" />
+    <Content Include="Images\box_down.png" />
+    <Content Include="Images\box_download_48.png" />
+    <Content Include="Images\box_upload_48.png" />
+    <Content Include="Images\brick.png" />
+    <Content Include="Images\bricks.png" />
+    <Content Include="Images\brick_add.png" />
+    <Content Include="Images\brick_delete.png" />
+    <Content Include="Images\brick_edit.png" />
+    <Content Include="Images\brick_error.png" />
+    <Content Include="Images\brick_go.png" />
+    <Content Include="Images\brick_link.png" />
+    <Content Include="Images\briefcase.png" />
+    <Content Include="Images\bug.png" />
+    <Content Include="Images\bug_add.png" />
+    <Content Include="Images\bug_delete.png" />
+    <Content Include="Images\bug_edit.png" />
+    <Content Include="Images\bug_error.png" />
+    <Content Include="Images\Calander.png" />
+    <Content Include="Images\CalendarIcon.jpg" />
+    <Content Include="Images\camera_48.png" />
+    <Content Include="Images\camera_add_48.png" />
+    <Content Include="Images\camera_delete_48.png" />
+    <Content Include="Images\camera_noflash_48.png" />
+    <Content Include="Images\camera_noflash_add_48.png" />
+    <Content Include="Images\camera_noflash_delete_48.png" />
+    <Content Include="Images\camera_noflash_warning_48.png" />
+    <Content Include="Images\camera_warning_48.png" />
+    <Content Include="Images\cancel_16.png" />
+    <Content Include="Images\cancel_48.png" />
+    <Content Include="Images\cd_48.png" />
+    <Content Include="Images\Chart_bar.png" />
+    <Content Include="Images\Chat.png" />
+    <Content Include="Images\circle_blue.png" />
+    <Content Include="Images\circle_green.png" />
+    <Content Include="Images\circle_orange.png" />
+    <Content Include="Images\circle_red.png" />
+    <Content Include="Images\Clock.png" />
+    <Content Include="Images\clock_48.png" />
+    <Content Include="Images\coffee_48.png" />
+    <Content Include="Images\coffee_mug.png" />
+    <Content Include="Images\comment_48.png" />
+    <Content Include="Images\comment_add_48.png" />
+    <Content Include="Images\comment_remove_48.png" />
+    <Content Include="Images\comment_warning_48.png" />
+    <Content Include="Images\computer_48.png" />
+    <Content Include="Images\Copy.png" />
+    <Content Include="Images\creditcard_american_express.png" />
+    <Content Include="Images\creditcard_cirrus.png" />
+    <Content Include="Images\creditcard_mastercard.png" />
+    <Content Include="Images\creditcard_paypal.png" />
+    <Content Include="Images\creditcard_solo.png" />
+    <Content Include="Images\creditcard_switch.png" />
+    <Content Include="Images\creditcard_visa.png" />
+    <Content Include="Images\cross_48.png" />
+    <Content Include="Images\Database.png" />
+    <Content Include="Images\database_48.png" />
+    <Content Include="Images\database_add_48.png" />
+    <Content Include="Images\database_remove_48.png" />
+    <Content Include="Images\database_warning_48.png" />
+    <Content Include="Images\delicious_48.png" />
+    <Content Include="Images\designfloat_48.png" />
+    <Content Include="Images\digg_48.png" />
+    <Content Include="Images\Download.png" />
+    <Content Include="Images\exit-icon.png" />
+    <Content Include="Images\feedburner_48.png" />
+    <Content Include="Images\Flag_blue.png" />
+    <Content Include="Images\Flag_greed.png" />
+    <Content Include="Images\Flag_red.png" />
+    <Content Include="Images\flickr_48.png" />
+    <Content Include="Images\floppy_disk_48.png" />
+    <Content Include="Images\Folder.png" />
+    <Content Include="Images\folder_48.png" />
+    <Content Include="Images\folder_add_48.png" />
+    <Content Include="Images\folder_delete_48.png" />
+    <Content Include="Images\folder_warning_48.png" />
+    <Content Include="Images\Forward.png" />
+    <Content Include="Images\Friends.png" />
+    <Content Include="Images\furl_48.png" />
+    <Content Include="Images\globe_48.png" />
+    <Content Include="Images\google_48.png" />
+    <Content Include="Images\gradient2.png" />
+    <Content Include="Images\heart_48.png" />
+    <Content Include="Images\Help.png" />
+    <Content Include="Images\Hoggy34.jpg" />
+    <Content Include="Images\hogwarts-school.jpg" />
+    <Content Include="Images\hogwarts.jpg" />
+    <Content Include="Images\HogwartsHall.png" />
+    <Content Include="Images\HogwartsWappen.jpg" />
+    <Content Include="Images\Home.png" />
+    <Content Include="Images\home_48.png" />
+    <Content Include="Images\icon_media_manuscript.gif" />
+    <Content Include="Images\images1727658_azure260209.jpg" />
+    <Content Include="Images\image_48.png" />
+    <Content Include="Images\image_add_48.png" />
+    <Content Include="Images\image_delete_48.png" />
+    <Content Include="Images\image_warning_48.png" />
+    <Content Include="Images\lightbulb_48.png" />
+    <Content Include="Images\Link.png" />
+    <Content Include="Images\lock_48.png" />
+    <Content Include="Images\lock_open_48.png" />
+    <Content Include="Images\Mail.png" />
+    <Content Include="Images\mail_48.png" />
+    <Content Include="Images\mail_add_48.png" />
+    <Content Include="Images\mail_delete_48.png" />
+    <Content Include="Images\mail_forward_48.png" />
+    <Content Include="Images\mail_reply_48.png" />
+    <Content Include="Images\mail_spam_48.png" />
+    <Content Include="Images\mail_write_48.png" />
+    <Content Include="Images\medium_Maseeh-College.jpg" />
+    <Content Include="Images\mixx_48.png" />
+    <Content Include="Images\mouse_48.png" />
+    <Content Include="Images\Movie.png" />
+    <Content Include="Images\Music.png" />
+    <Content Include="Images\navigate_48.png" />
+    <Content Include="Images\newspaper_48.png" />
+    <Content Include="Images\NightHogwarts.jpg" />
+    <Content Include="Images\Notebook.png" />
+    <Content Include="Images\on10.net.jpg" />
+    <Content Include="Images\Page.png" />
+    <Content Include="Images\paper&amp;pencil_48.png" />
+    <Content Include="Images\paper_48.png" />
+    <Content Include="Images\paper_content_48.png" />
+    <Content Include="Images\paper_content_chart_48.png" />
+    <Content Include="Images\paper_content_pencil_48.png" />
+    <Content Include="Images\pencil_48.png" />
+    <Content Include="Images\Phone.png" />
+    <Content Include="Images\Picture.png" />
+    <Content Include="Images\pie_chart_48.png" />
+    <Content Include="Images\pre.png" />
+    <Content Include="Images\printer_48.png" />
+    <Content Include="Images\questionmark_48.png" />
+    <Content Include="Images\reddit_48.png" />
+    <Content Include="Images\refresh_48.png" />
+    <Content Include="Images\RSS-2.png" />
+    <Content Include="Images\RSS.png" />
+    <Content Include="Images\rss_48.png" />
+    <Content Include="Images\Search.png" />
+    <Content Include="Images\search_48.png" />
+    <Content Include="Images\Shopping.png" />
+    <Content Include="Images\smile_grin_48.png" />
+    <Content Include="Images\smile_sad_48.png" />
+    <Content Include="Images\spanner_48.png" />
+    <Content Include="Images\speech_bubble_48.png" />
+    <Content Include="Images\sqlazure_rgb_2_2.png" />
+    <Content Include="Images\Star.png" />
+    <Content Include="Images\star_48.png" />
+    <Content Include="Images\star_half_48.png" />
+    <Content Include="Images\star_off_48.png" />
+    <Content Include="Images\sumbleupon_48.png" />
+    <Content Include="Images\System-Globe-48x48.png" />
+    <Content Include="Images\table_48.png" />
+    <Content Include="Images\table_green_48.png" />
+    <Content Include="Images\tabs_48.png" />
+    <Content Include="Images\technorati_48.png" />
+    <Content Include="Images\thumbs_down_48.png" />
+    <Content Include="Images\thumbs_up_48.png" />
+    <Content Include="Images\twitter_48.png" />
+    <Content Include="Images\twitter_boxed_48.png" />
+    <Content Include="Images\usb_48.png" />
+    <Content Include="Images\users_two_48.png" />
+    <Content Include="Images\users_two_add_48.png" />
+    <Content Include="Images\users_two_warning_48.png" />
+    <Content Include="Images\user_48.png" />
+    <Content Include="Images\user_add_48.png" />
+    <Content Include="Images\user_delete_48.png" />
+    <Content Include="Images\user_two_delete_48.png" />
+    <Content Include="Images\user_warning_48.png" />
+    <Content Include="Images\warning_16.png" />
+    <Content Include="Images\warning_48.png" />
+    <Content Include="Images\yahoo_48.png" />
+    <Content Include="Images\yellowstone.jpg" />
+    <Content Include="StaffWorks\CourseManagement\CourseManagement.aspx" />
+    <Content Include="StaffWorks\CourseManagement\GenerateCourses.aspx" />
+    <Content Include="StaffWorks\CourseManagement\InputGrade.aspx" />
+    <Content Include="StaffWorks\CourseManagement\ViewOpenedCourses.aspx" />
+    <Content Include="StaffWorks\StaffHome\ComposeAnnouncements.aspx" />
+    <Content Include="StaffWorks\StaffHome\FullStaffAnnouncements.aspx" />
+    <Content Include="StaffWorks\StaffHome\NewsPage.aspx" />
+    <Content Include="StaffWorks\StaffHome\ProcessStudentRequests.aspx" />
+    <Content Include="StaffWorks\StaffHome\StaffAnnouncements.aspx" />
+    <Content Include="StaffWorks\StaffHome\StaffPictures.aspx" />
+    <Content Include="StaffWorks\StaffHome\StaffProfile.aspx" />
+    <Content Include="StudentWorks\CourseRegistration\AddCourses.aspx" />
+    <Content Include="StudentWorks\CourseRegistration\RegisterCourses.aspx" />
+    <Content Include="StudentWorks\StudentHome\ChangePassword.aspx" />
+    <Content Include="StudentWorks\StudentHome\ClassSchedule.aspx" />
+    <Content Include="StudentWorks\StudentHome\DepartmentInfo.aspx" />
+    <Content Include="StudentWorks\StudentHome\FullAnnouncements.aspx" />
+    <Content Include="StudentWorks\StudentHome\StudentEdit.aspx" />
+    <Content Include="StudentWorks\StudentHome\StudentInfo.aspx" />
+    <Content Include="StudentWorks\StudentHome\StudentNewsPage.aspx" />
+    <Content Include="StudentWorks\StudentHome\StudentProfile.aspx" />
+    <Content Include="StudentWorks\StudentHome\Transcript.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Web Control\FreeTextBox.dll" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\HogwartsDataAccess.cs" />
+    <Compile Include="Classes\TableDataContract.cs" />
+    <Compile Include="Classes\Utility.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="HogwartsDatabaseModel.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>HogwartsDatabaseModel.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Staff.Master.cs">
+      <DependentUpon>Staff.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Staff.Master.designer.cs">
+      <DependentUpon>Staff.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\StaffNoneNotice.Master.cs">
+      <DependentUpon>StaffNoneNotice.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\StaffNoneNotice.Master.designer.cs">
+      <DependentUpon>StaffNoneNotice.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\Student.Master.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\Student.Master.designer.cs">
+      <DependentUpon>Student.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPages\StudentNoneNotice.Master.cs">
+      <DependentUpon>StudentNoneNotice.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPages\StudentNoneNotice.Master.designer.cs">
+      <DependentUpon>StudentNoneNotice.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StaffWorks\CourseManagement\CourseManagement.aspx.cs">
+      <DependentUpon>CourseManagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\CourseManagement\CourseManagement.aspx.designer.cs">
+      <DependentUpon>CourseManagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\CourseManagement\GenerateCourses.aspx.cs">
+      <DependentUpon>GenerateCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\CourseManagement\GenerateCourses.aspx.designer.cs">
+      <DependentUpon>GenerateCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\CourseManagement\InputGrade.aspx.cs">
+      <DependentUpon>InputGrade.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\CourseManagement\InputGrade.aspx.designer.cs">
+      <DependentUpon>InputGrade.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\CourseManagement\ViewOpenedCourses.aspx.cs">
+      <DependentUpon>ViewOpenedCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\CourseManagement\ViewOpenedCourses.aspx.designer.cs">
+      <DependentUpon>ViewOpenedCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\ComposeAnnouncements.aspx.cs">
+      <DependentUpon>ComposeAnnouncements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\ComposeAnnouncements.aspx.designer.cs">
+      <DependentUpon>ComposeAnnouncements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\FullStaffAnnouncements.aspx.cs">
+      <DependentUpon>FullStaffAnnouncements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\FullStaffAnnouncements.aspx.designer.cs">
+      <DependentUpon>FullStaffAnnouncements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\NewsPage.aspx.cs">
+      <DependentUpon>NewsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\NewsPage.aspx.designer.cs">
+      <DependentUpon>NewsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\ProcessStudentRequests.aspx.cs">
+      <DependentUpon>ProcessStudentRequests.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\ProcessStudentRequests.aspx.designer.cs">
+      <DependentUpon>ProcessStudentRequests.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\StaffAnnouncements.aspx.cs">
+      <DependentUpon>StaffAnnouncements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\StaffAnnouncements.aspx.designer.cs">
+      <DependentUpon>StaffAnnouncements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\StaffPictures.aspx.cs">
+      <DependentUpon>StaffPictures.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\StaffPictures.aspx.designer.cs">
+      <DependentUpon>StaffPictures.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\StaffProfile.aspx.cs">
+      <DependentUpon>StaffProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StaffWorks\StaffHome\StaffProfile.aspx.designer.cs">
+      <DependentUpon>StaffProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\CourseRegistration\AddCourses.aspx.cs">
+      <DependentUpon>AddCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\CourseRegistration\AddCourses.aspx.designer.cs">
+      <DependentUpon>AddCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\CourseRegistration\RegisterCourses.aspx.cs">
+      <DependentUpon>RegisterCourses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\CourseRegistration\RegisterCourses.aspx.designer.cs">
+      <DependentUpon>RegisterCourses.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\ClassSchedule.aspx.cs">
+      <DependentUpon>ClassSchedule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\ClassSchedule.aspx.designer.cs">
+      <DependentUpon>ClassSchedule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\DepartmentInfo.aspx.cs">
+      <DependentUpon>DepartmentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\DepartmentInfo.aspx.designer.cs">
+      <DependentUpon>DepartmentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\FullAnnouncements.aspx.cs">
+      <DependentUpon>FullAnnouncements.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\FullAnnouncements.aspx.designer.cs">
+      <DependentUpon>FullAnnouncements.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentEdit.aspx.cs">
+      <DependentUpon>StudentEdit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentEdit.aspx.designer.cs">
+      <DependentUpon>StudentEdit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentInfo.aspx.cs">
+      <DependentUpon>StudentInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentInfo.aspx.designer.cs">
+      <DependentUpon>StudentInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentNewsPage.aspx.cs">
+      <DependentUpon>StudentNewsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentNewsPage.aspx.designer.cs">
+      <DependentUpon>StudentNewsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentProfile.aspx.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\StudentProfile.aspx.designer.cs">
+      <DependentUpon>StudentProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\Transcript.aspx.cs">
+      <DependentUpon>Transcript.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StudentWorks\StudentHome\Transcript.aspx.designer.cs">
+      <DependentUpon>Transcript.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebRole.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\fatcow-hosting-icons-900.zip" />
+    <Content Include="MasterPages\Site.Master" />
+    <Content Include="MasterPages\Staff.Master" />
+    <Content Include="MasterPages\StaffNoneNotice.Master" />
+    <Content Include="MasterPages\Student.Master" />
+    <Content Include="MasterPages\StudentNoneNotice.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CloudHogwarts_WorkerRole\CloudHogwarts_WorkerRole.csproj">
+      <Project>{E33DE938-4F1E-4617-80F0-189780A672DF}</Project>
+      <Name>CloudHogwarts_WorkerRole</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HogwartsDatabaseModel.dbml.layout">
+      <DependentUpon>HogwartsDatabaseModel.dbml</DependentUpon>
+    </None>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HogwartsDatabaseModel.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>HogwartsDatabaseModel.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5086</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

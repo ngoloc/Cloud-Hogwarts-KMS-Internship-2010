@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CloudHogwarts_WebRole.MasterPages.Site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Portland Hogwarts School</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        #page {
+          border:1px solid purple;
+          width:1100px;
+          margin:0 auto;
+          padding:5px;
+          text-align:left;
+        }
+        #header {
+          text-align: center;
+          margin: 0px auto;
+          padding : 10px;
+          border : 3px solid red;
+
+        }
+        #MasterContent {
+          margin:10px 0 10px 298px;
+          padding: 10px;
+          border: 3px solid green;
+          padding-bottom: 25px;
+        }
+        #footer {
+        margin: 0px auto;
+        padding: 10px;
+        text-align: center;
+        border: 3px solid yellow;
+        }
+       #Status {
+          float: left;
+          width: 272px;
+          padding: 3px;
+          margin: 10px 0 10px 0px;
+          border: 3px solid blue;
+            height: 298px;
+        }
+
+        #hideSkiplink
+        {
+            background-color:White;
+            width:100%;
+            font-size:large;
+            font-weight:bolder;
+        }
+        #Introduction
+        {
+            height: 255px;
+            margin-top: 24px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form11" runat="server" style="margin-top:30px">
+    <div id="page" style="background-color: #FFFF00; background-image: url('/Images/NightHogwarts.jpg'); background-repeat: repeat;">
+        <div id="header" style="background-color: #FFFFFF;">
+        <asp:Image ID="HogwartsBanner" ImageUrl="~/Images/Hoggy34.jpg" runat="server" 
+                Width="318px" Height="137px" style="margin-left: 0px" />
+        <asp:Image ID="Image2" ImageUrl="~/Images/HogwartsHall.png" runat="server" 
+                Width="350px" Height="137px" style="margin-left: 0px" />
+        <asp:Image ID="Image3" ImageUrl="~/Images/hogwarts.jpg" runat="server" 
+                Width="363px" Height="137px" style="margin-left: 0px" />
+            
+        </div>
+        <div id="Status" align="center" style="background-color: #FFFFFF; background-repeat: repeat;">
+            <br/>
+            <asp:Label ID="Label1" runat="server" ForeColor="Red">Log off</asp:Label>
+            <div id="Introduction" align="center" 
+                style="font-size: medium; color: #000080;">
+             <asp:Image ID="Image1" ImageUrl="~/Images/HogwartsWappen.jpg" runat="server" 
+                Width="235px" Height="210px" />
+                <br />
+                Since 1000</div>
+        </div>
+        
+        <div id="MasterContent" style="background-color: #FFFFFF;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+        </div>
+        <div id="footer" style="background-color: #FFFFFF;">Hogwarts School 2010</div>
+    </div>
+    </form>
+</body>
+</html>

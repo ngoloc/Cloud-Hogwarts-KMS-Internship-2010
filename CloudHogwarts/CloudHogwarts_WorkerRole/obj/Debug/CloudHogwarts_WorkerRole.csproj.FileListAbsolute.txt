@@ -1,0 +1,26 @@
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\CloudHogwarts_WorkerRole.dll.config
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\CloudHogwarts_WorkerRole.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\CloudHogwarts_WorkerRole.pdb
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\System.Data.Services.Client.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\System.ServiceModel.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\msshrtmi.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.StorageClient.xml
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\obj\Debug\ResolveAssemblyReference.cache
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\obj\Debug\CloudHogwarts_WorkerRole.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WorkerRole\obj\Debug\CloudHogwarts_WorkerRole.pdb
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\CloudHogwarts_WorkerRole.dll.config
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\CloudHogwarts_WorkerRole.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\CloudHogwarts_WorkerRole.pdb
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\System.Data.Services.Client.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\System.ServiceModel.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\msshrtmi.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\bin\Debug\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\obj\Debug\CloudHogwarts_WorkerRole.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WorkerRole\obj\Debug\CloudHogwarts_WorkerRole.pdb

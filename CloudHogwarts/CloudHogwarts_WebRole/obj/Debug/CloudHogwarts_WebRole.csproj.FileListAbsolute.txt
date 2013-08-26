@@ -1,0 +1,30 @@
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WebRole.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WebRole.pdb
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WorkerRole.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\FreeTextBox.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\System.Data.Services.Client.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\System.ServiceModel.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WorkerRole.pdb
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.StorageClient.xml
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\ResolveAssemblyReference.cache
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\CloudHogwarts_WebRole.dll.licenses
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\CloudHogwarts_WebRole.dll
+C:\DRIVERS\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\CloudHogwarts_WebRole.pdb
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WebRole.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WebRole.pdb
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WorkerRole.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\FreeTextBox.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\System.Data.Services.Client.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\System.ServiceModel.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\CloudHogwarts_WorkerRole.pdb
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\bin\Microsoft.WindowsAzure.StorageClient.xml
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\CloudHogwarts_WebRole.dll.licenses
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\CloudHogwarts_WebRole.dll
+C:\Users\Loc Ngo\Documents\Visual Studio 2010\Projects\CloudHogwarts\CloudHogwarts_WebRole\obj\Debug\CloudHogwarts_WebRole.pdb

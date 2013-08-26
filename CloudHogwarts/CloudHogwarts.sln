@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "CloudHogwarts", "CloudHogwarts\CloudHogwarts.ccproj", "{ECB1A551-4C22-4297-A799-BCC77265741C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudHogwarts_WebRole", "CloudHogwarts_WebRole\CloudHogwarts_WebRole.csproj", "{5E4DC693-A4D9-47EA-A187-4F9877ABD603}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudHogwarts_WorkerRole", "CloudHogwarts_WorkerRole\CloudHogwarts_WorkerRole.csproj", "{E33DE938-4F1E-4617-80F0-189780A672DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB1A551-4C22-4297-A799-BCC77265741C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB1A551-4C22-4297-A799-BCC77265741C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB1A551-4C22-4297-A799-BCC77265741C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB1A551-4C22-4297-A799-BCC77265741C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E4DC693-A4D9-47EA-A187-4F9877ABD603}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E4DC693-A4D9-47EA-A187-4F9877ABD603}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E4DC693-A4D9-47EA-A187-4F9877ABD603}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E4DC693-A4D9-47EA-A187-4F9877ABD603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33DE938-4F1E-4617-80F0-189780A672DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33DE938-4F1E-4617-80F0-189780A672DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33DE938-4F1E-4617-80F0-189780A672DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33DE938-4F1E-4617-80F0-189780A672DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
